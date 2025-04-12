@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "LogIt",
+  "version": "0.1",
+  "description": "A scrappy little logger for your daily tasks, reads, and tech dives.",
+  "icons": {
+    "128": "icons/logo.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/logo.png"
+  },
+  "permissions": ["storage"],
+  "commands": {
+    "open-logit": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L",
+        "mac": "Command+Shift+L"
+      },
+      "description": "Open LogIt extension popup"
+    }
+  }
+}
+
